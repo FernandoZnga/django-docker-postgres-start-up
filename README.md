@@ -95,6 +95,6 @@ $ make start
 ```
 You should see the server running on your [localhost](http://localhost:8000/)
 
-If you want to go beyond, I'll encourage to follow [Writing your first Django app](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) tutorial.
+If you want to go beyond, I'll encourage you to follow [Writing your first Django app](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) tutorial.
 
 Happy Coding!
