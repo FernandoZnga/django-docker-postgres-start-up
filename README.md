@@ -4,10 +4,10 @@ A simple Django starting point using Docker containers for the App and DB
 For this project to start we need some stuff before hand.
 
 ## Contets
-1. Need First
-
+### 1. Need First
+### 2. Download Containers and Install
+______
 ## 1. Need First
-## 2. Download Containers and Install
 
 For this to happend we need to:
 - Install [homebrew](https://brew.sh/index_es). Once you have it, remember to insert the Homebrew directory at the top of your **PATH** environment variables by adding the following line at the botom of you `~./profile` file
@@ -44,6 +44,12 @@ Now we are set!
 
 ## 2. Download Containers and Install
 
+First clone the repo
+```bash
+$ git clone https://github.com/FernandoZnga/django-docker-postgres-start-up. <my_project_name>
+$ cd <my_project_name>
+```
+
 Check your local root folder, it should be like this
 ```bash
 makefiles
@@ -76,14 +82,14 @@ You'll se the word `(env)` in your command line.
 
 Then create a **.env** empty file, then run the `sudo docker-compose` command.
 ```bash
-touch .env  ## creates the .env empty file
-sudo docker-compose run web django-admin startproject myapp .  ## myapp can be changed to your app name
+$ touch .env  ## creates the .env empty file
+$ sudo docker-compose run web django-admin startproject myapp .  ## myapp can be changed to your app name
 ```
 It will download the images, create the containers and install dependencies, basically Django & psycopg2, then creates the project.
 
 After that, you'll se a bunch of new folders, try to start the app running this from the root folder (where Makefile is):
 ```bash
-make start
+$ make start
 ```
 You should see the server running on your [localhost](http://localhost:8000/)
 
