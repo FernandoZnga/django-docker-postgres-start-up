@@ -1,4 +1,4 @@
-# django-docker-postgres-start-up
+# Quick Django & Docker Starting Point
 A simple Django starting point using Docker containers for the App and DB
 
 For this project to start we need some stuff before hand.
