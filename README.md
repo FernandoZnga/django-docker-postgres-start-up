@@ -46,7 +46,7 @@ Now we are set!
 
 First clone the repo
 ```bash
-$ git clone https://github.com/FernandoZnga/django-docker-postgres-start-up. <my_project_name>
+$ git clone https://github.com/FernandoZnga/django-docker-postgres-start-up <my_project_name>
 $ cd <my_project_name>
 ```
 
