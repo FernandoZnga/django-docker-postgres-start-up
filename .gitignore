@@ -130,3 +130,6 @@ dmypy.json
 
 # MacOS .DS_Store file
 .DS_Store
+
+# GitHub theme
+_config.yml
