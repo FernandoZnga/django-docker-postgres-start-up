@@ -64,11 +64,13 @@ requirements-dev.txt
 requirements.txx
 ```
 Before going any further, let me quick-explain your root folder.
-`makefiles` folder contain some commands you could use just typing `make <command>` you could find the list of commands on the Makefile, just do a quick read.
-`Dockerfile` as the name suggest, is for Docker and it tells which folders are going to be copied and sync from local to container.
-`docker-compose.yml` tells Docker what how many containers we are going to use and what images.
-`requirements-dev.txt` contains the list of packages you could use while you are developing the app.
-`requirements.txt` contains the list of packages you'll be using for production.
+
+- `makefiles` folder contain some commands you could use just typing `make <command>` you could find the list of commands on the **Makefile**, just do a quick read.
+- `Dockerfile` as the name suggest, is for Docker and it tells which folders are going to be copied and sync from local to container.
+- `docker-compose.yml` tells Docker what how many containers we are going to use and what images.
+- `requirements-dev.txt` contains the list of packages you could use while you are developing the app.
+- `requirements.txt` contains the list of packages you'll be using for production.
+
 As you can see, at the moment, `requirements-dev.txt` is empty and it only purpose is to redirects the installation of packages to `requirements.txt`
 
 At this poing you have all you need to download and install, so Let's Start!
