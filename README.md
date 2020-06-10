@@ -43,6 +43,18 @@ Since we are going to use a Postgres DB inside a container, it's not mandatory t
 $ brew install postgres
 ```
 
+This commands are handy:
+```bash
+### For MAC
+pg_ctl -D /usr/local/var/postgres start ## starts manually the postgres DB
+pg_ctl -D /usr/local/var/postgres stop ## stops manually the postgres DB
+
+### FOR LINUX
+sudo service postgresql start ## start Postgres
+sudo service postgresql stop ## stop Postgres
+```
+More info [here](https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html)
+
 Now we are set!
 
 ## 2. Download Containers and Install
